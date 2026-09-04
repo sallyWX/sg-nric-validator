@@ -33,7 +33,6 @@ body {
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 h1 { margin: 0; font-size: clamp(2rem, 7vw, 3.25rem); letter-spacing: -0.04em; }
@@ -50,7 +49,6 @@ input {
   font: inherit;
   font-size: 1.1rem;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 input:focus { outline: 3px solid #a9dfc8; border-color: #287459; }
