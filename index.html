@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Check whether a Singapore NRIC has a valid format and checksum." />
     <title>NRIC Validator</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=2" />
   </head>
   <body>
     <main class="card">
@@ -22,8 +22,9 @@
             type="text"
             placeholder="Paste rider's NRIC here"
             autocomplete="off"
-            autocapitalize="none"
+            autocapitalize="off"
             spellcheck="false"
+            style="text-transform: none"
             aria-describedby="privacy-note result"
           />
           <button type="submit">Check</button>

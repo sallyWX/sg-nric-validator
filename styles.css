@@ -49,6 +49,7 @@ input {
   font: inherit;
   font-size: 1.1rem;
   letter-spacing: 0.06em;
+  text-transform: none;
 }
 
 input:focus { outline: 3px solid #a9dfc8; border-color: #287459; }
